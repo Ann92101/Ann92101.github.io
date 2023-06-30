@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01.jpg'
+image: '/images/an-2.jpeg'
 ---
 
 Leverage agile frameworks to provide a robust [Hugo Sousa](https://unsplash.com/photos/BghGseQbAkA) synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
@@ -13,7 +13,7 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 > 
 > <cite>Charles Dickens</cite>
 
-> 多谢你如此精彩耀眼, 做我平淡岁月里星辰。
+> 多谢你如此精彩耀眼, 做我平淡岁月里星辰 💫
 >
 > <cite> 《远辰》 </cite>
 
