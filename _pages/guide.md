@@ -13,6 +13,8 @@ image: '/images/guide.jpeg'
 
 ~~Strikethrough~~ <!--- 在单词的左右两边加两个～ -->
 
+Markdown的语法以及逻辑和知乎几乎一模一样，所以你只要会用知乎的编辑器，就可以很快上手这个编辑器。而VS code也可以把它当作和word一样的文字编译器用，所以你可以在这里写作业，写作文，写日记，写博客，写论文，写代码，写什么都可以。
+
 ***
 
 ## Headings by default:
