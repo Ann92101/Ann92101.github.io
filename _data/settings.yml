@@ -18,8 +18,8 @@ menu__settings:
       url: '/about/'
     # - title: 'Contact'
     #   url: '/contact/'
-    # - title: 'Elements'
-    #   url: '/elements/'
+    - title: 'Guide'
+      url: '/guide/'
     - title: 'Tags'
       url: '/tags/'
 

@@ -1,41 +1,5 @@
 # Ann's Personal Website
 
-
-* * *
-
-### Demo
-
-Check the theme in action [Live Demo](https://clancy.netlify.app/) |
-[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
-
-* * *
-
-### Theme features
-
-- Works with GitHub Pages (host it for free)
-- Dark and light mode user can select themself
-- 100% responsive Design
-- Clean and Modern Code
-- Optimized for mobile devices
-- Super fast performance ⚡⚡⚡
-- No jQuery, only vanilla JS
-- Social sharing buttons
-- Scroll to top button
-- Syntax highlighting (supports the Jekyll syntax highlighter)
-- Compatible with modern browsers
-- Medium style image zoom
-- Image Lazy loading
-- Image gallery
-- Tags Page
-- Custom logo support
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Ionicons icons
-- Free Google Fonts
-- Free Updates & Support
-
 * * *
 
 ### Installation
@@ -43,8 +7,7 @@ Check the theme in action [Live Demo](https://clancy.netlify.app/) |
 #### Installing Ruby & Jekyll
 
 If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
-
-
+[For mac](https://jekyllrb.com/docs/installation/macos/)
 
 * * *
 
@@ -62,7 +25,14 @@ bundle exec jekyll serve
 
 ### Format
 
-A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
+
+## Syntax
+
+**Bold** 
+
+*Italic*
+
+~~Strikethrough~~ <!--- 在单词的左右两边加两个～ -->
 
 ***
 
@@ -81,21 +51,25 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 ### Ordered list example:
 
-1. Poutine drinking vinegar bitters.
-2. Coloring book distillery fanny pack.
-3. Venmo biodiesel gentrify enamel pin meditation.
-4. Jean shorts shaman listicle pickled portland.
-5. Salvia mumblecore brunch iPhone migas.
+1. This is the first item
+2. This is the second item
+3. This is the third item
+4. This is the fourth item
+5. This is the fifth item
 
 ***
 
 ### Unordered list example:
 
-* Bitters semiotics vice thundercats synth.
-* Literally cred narwhal bitters wayfarers.
-* Kale chips chartreuse paleo tbh street art marfa.
-* Mlkshk polaroid sriracha brooklyn.
-* Pug you probably haven't heard of them air plant man bun.
+- This is the first item
+- This is the second item
+- This is the third item
+- This is the fourth item
+- This is the fifth item
+
+也可以用 *
+
+* This is the first item
 
 ***
 
@@ -119,9 +93,13 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 #### A quote looks like this:
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+> "The heaviest penalty for declining to rule is to be ruled by someone inferior to yourself."
+> 
+> <cite>Plato, *The Republic*</cite>
+
+>“Jump above calculations, group the operations, classify them according to their complexities rather than their appearance; this, I believe, is the mission of future mathematicians.”
 >
-> <cite>George Bernard Shaw</cite>
+> -- <cite>Évariste Galois</cite>
 
 ***
 
@@ -150,17 +128,12 @@ li {
 }
 {% endhighlight %}
 
-{% highlight js %}
-  $('.top').click(function () {
-    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
-  });
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > $(window).height()) {
-      $('.top').addClass("top-active");
-    } else {
-      $('.top').removeClass("top-active");
-    };
-  });
-{% endhighlight %}
+***
+
+## Code Block
+
+```
+print('hi Ann')
+```
 
 ***

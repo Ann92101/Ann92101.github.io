@@ -1,11 +1,17 @@
 ---
 layout: page
-title: Elements
-permalink: /elements/
-image: '/images/11.jpg'
+title: Guide
+permalink: /guide/
+image: '/images/guide.jpeg'
 ---
 
-A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
+## Syntax
+
+**Bold** 
+
+*Italic*
+
+~~Strikethrough~~ <!--- 在单词的左右两边加两个～ -->
 
 ***
 
@@ -24,21 +30,25 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 ### Ordered list example:
 
-1. Poutine drinking vinegar bitters.
-2. Coloring book distillery fanny pack.
-3. Venmo biodiesel gentrify enamel pin meditation.
-4. Jean shorts shaman listicle pickled portland.
-5. Salvia mumblecore brunch iPhone migas.
+1. This is the first item
+2. This is the second item
+3. This is the third item
+4. This is the fourth item
+5. This is the fifth item
 
 ***
 
 ### Unordered list example:
 
-* Bitters semiotics vice thundercats synth.
-* Literally cred narwhal bitters wayfarers.
-* Kale chips chartreuse paleo tbh street art marfa.
-* Mlkshk polaroid sriracha brooklyn.
-* Pug you probably haven't heard of them air plant man bun.
+- This is the first item
+- This is the second item
+- This is the third item
+- This is the fourth item
+- This is the fifth item
+
+也可以用 *
+
+* This is the first item
 
 ***
 
@@ -62,9 +72,13 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 #### A quote looks like this:
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+> "The heaviest penalty for declining to rule is to be ruled by someone inferior to yourself."
+> 
+> <cite>Plato, *The Republic*</cite>
+
+>“Jump above calculations, group the operations, classify them according to their complexities rather than their appearance; this, I believe, is the mission of future mathematicians.”
 >
-> <cite>George Bernard Shaw</cite>
+> -- <cite>Évariste Galois</cite>
 
 ***
 
@@ -93,18 +107,13 @@ li {
 }
 {% endhighlight %}
 
-{% highlight js %}
-  $('.top').click(function () {
-    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
-  });
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > $(window).height()) {
-      $('.top').addClass("top-active");
-    } else {
-      $('.top').removeClass("top-active");
-    };
-  });
-{% endhighlight %}
+***
+
+## Code Block
+
+```
+print('hi Ann')
+```
 
 ***
 
@@ -134,19 +143,21 @@ li {
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-![Minimalism]({{site.baseurl}}/images/04.jpg)
-*Photo by [Kimon Maritz](https://unsplash.com/photos/mQiZnKwGXW0) on [Unsplash](https://unsplash.com/)*
+![ocean]({{site.baseurl}}/images/an-2.jpeg)
+*Photo by [Ann](https://sianren.com)*
 
 ***
 
 ## Youtube Embed
 
-<p><iframe src="https://www.youtube.com/embed/hRXd0MMsixI" frameborder="0" allowfullscreen></iframe></p>
+可以嵌入Youtube视频，如下，但是要在链接中加上embed, 这个视频是讲
 
-***
+原链接：
+    https://www.youtube.com/IV3dnLzthDA
 
-## Vimeo Embed
+嵌入链接：
+    https://www.youtube.com/embed/IV3dnLzthDA
 
-<p><iframe src="https://player.vimeo.com/video/147264547?title=0&byline=0" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/IV3dnLzthDA" frameborder="0" allowfullscreen></iframe></p>
 
 ***
