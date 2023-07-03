@@ -37,28 +37,28 @@ portfolio:
   portfolio__title: Portfolio
   portfolio__gallery:
     - image: /images/an-1.jpeg
-      title: Samantha Gades
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
+      title: Where title goes
+      description: Where description goes <a href="Sian Ren">Sian Ren</a>
 
     - image: /images/an-2.jpeg
-      title: Paula Vermeulen
-      description: Gray mountain covered by mountain <a href="https://unsplash.com/photos/_f2m3mEkaaU">Unsplash</a>
+      title: Where title goes
+      description: Where description goes <a href="Sian Ren">Sian Ren</a>
 
     - image: /images/an-3.jpeg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+      title: Where title goes
+      description: Where description goes <a href="Sian Ren">Sian Ren</a>
 
     - image: /images/an-4.jpeg
-      title: Nord Wood
-      description: White ceramic mug <a href="https://unsplash.com/photos/nDd3dIkkOLo">Unsplash</a>
+      title: Where title goes
+      description: Where description goes <a href="Sian Ren">Sian Ren</a>
 
     - image: /images/an-5.jpeg
-      title: Luca Bravo
-      description: White ribs in a facade against a white sky <a href="https://unsplash.com/photos/alS7ewQ41M8">Unsplash</a>
+      title: Where title goes
+      description: Where description goes <a href="Sian Ren">Sian Ren</a>
 
     - image: /images/an-6.jpeg
-      title: Isaac Benhesed
-      description: Minimalist black coffee <a href="https://unsplash.com/photos/onLbXleIkds">Unsplash</a>
+      title: Where title goes
+      description: Where description goes <a href="Sian Ren">Sian Ren</a>
 
     # - image: /images/gallery-07.jpg
     #   title: Water Journal

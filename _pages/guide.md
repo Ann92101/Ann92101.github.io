@@ -76,10 +76,6 @@ image: '/images/guide.jpeg'
 > 
 > <cite>Plato, *The Republic*</cite>
 
->“Jump above calculations, group the operations, classify them according to their complexities rather than their appearance; this, I believe, is the mission of future mathematicians.”
->
-> -- <cite>Évariste Galois</cite>
-
 ***
 
 
@@ -119,6 +115,13 @@ print('hi Ann')
 
 ## Images
 
+可以单独插入图片，如下：
+
+![ocean]({{site.baseurl}}/images/an-2.jpeg)
+*Photo by [Ann](https://sianren.com)*
+
+也可以插入图片的gallery，如下， 但是注意到 会因为比例不一样，导致图片的大小不一样
+
 <div class="gallery-box">
   <div class="gallery">
     <img src="/images/an-1.jpeg">
@@ -128,8 +131,16 @@ print('hi Ann')
     <img src="/images/an-5.jpeg">
     <img src="/images/an-6.jpeg">
   </div>
-  <em>Gallery</em>
+  <em>比例调整前的Gallery</em>
 </div>
+
+解决方法就是可以用电脑打开相册，然后照着一个比例去crop比如如下：
+
+![crop]({{site.baseurl}}/images/crop_img.png)
+
+***
+
+这是一个比利一样的gallery的例子
 
 <div class="gallery-box">
   <div class="gallery">
@@ -143,14 +154,12 @@ print('hi Ann')
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-![ocean]({{site.baseurl}}/images/an-2.jpeg)
-*Photo by [Ann](https://sianren.com)*
 
 ***
 
 ## Youtube Embed
 
-可以嵌入Youtube视频，如下，但是要在链接中加上embed, 这个视频是讲
+可以嵌入Youtube视频，如下，但是要在链接中加上embed, 这个视频是讲lead的。
 
 原链接：
     https://www.youtube.com/IV3dnLzthDA
