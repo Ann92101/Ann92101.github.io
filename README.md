@@ -103,33 +103,6 @@ bundle exec jekyll serve
 
 ***
 
-
-
-## Syntax Highlighter
-
-{% highlight css %}
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #1c2021;
-}
-
-li {
-  width: 200px;
-  min-height: 250px;
-  border: 1px solid #000;
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px;
-}
-{% endhighlight %}
-
-***
-
 ## Code Block
 
 ```
