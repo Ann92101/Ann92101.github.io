@@ -112,6 +112,18 @@ li {
 
 <div class="gallery-box">
   <div class="gallery">
+    <img src="/images/an-1.jpeg">
+    <img src="/images/an-2.jpeg">
+    <img src="/images/an-3.jpeg">
+    <img src="/images/an-4.jpeg">
+    <img src="/images/an-5.jpeg">
+    <img src="/images/an-6.jpeg">
+  </div>
+  <em>Gallery</em>
+</div>
+
+<div class="gallery-box">
+  <div class="gallery">
     <img src="/images/09.jpg">
     <img src="/images/06.jpg">
     <img src="/images/03.jpg">

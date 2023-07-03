@@ -20,6 +20,8 @@ menu__settings:
     #   url: '/contact/'
     # - title: 'Elements'
     #   url: '/elements/'
+    - title: 'Tags'
+      url: '/tags/'
 
 
 #-------------------------------
