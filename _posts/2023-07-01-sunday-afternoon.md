@@ -6,4 +6,3 @@ image:  '/images/Sunday_afternoon.jpg'
 tags:   [Art, Pointillism]
 ---
 
-This is where 满分作文 goes.
